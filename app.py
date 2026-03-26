@@ -718,4 +718,4 @@ st.markdown("""
         © 2024 CreditAI™ | Built with using Streamlit | Last Updated: {datetime.now().strftime('%B %d, %Y')}
     </p>
 </div>
-"""".format(datetime=datetime), unsafe_allow_html=True)
+""".format(datetime=datetime), unsafe_allow_html=True)
