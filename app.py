@@ -4,7 +4,23 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 from datetime import datetime
- 
+
+st.markdown("""
+<style>
+.corporate-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #2d3748;
+}
+.footer-links a {
+    margin: 0 10px;
+    color: #4fd1c5;
+    text-decoration: none;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # ══════════════════════════════════════════════════════════════
 # ENTERPRISE PAGE CONFIGURATION
 # ══════════════════════════════════════════════════════════════
@@ -719,3 +735,29 @@ st.markdown("""
     </p>
 </div>
 """.format(datetime=datetime), unsafe_allow_html=True)
+from datetime import datetime
+
+footer_html = f"""
+<div class='corporate-footer'>
+    <div class='footer-brand'>CreditAI™ Enterprise Platform</div>
+    
+    <p style='color:#64748b; font-size:1rem; margin:0.5rem 0;'>
+        Powered by Advanced Machine Learning & AI | 
+        Model Accuracy: 89.7% | Production Ready
+    </p>
+
+    <div class='footer-links'>
+        <a href='https://github.com/Shivasai1809/credit-risk-predictor' target='_blank'>📂 GitHub</a>
+        <a href='#'>📧 Contact</a>
+        <a href='#'>📚 Documentation</a>
+        <a href='#'>🔒 Privacy Policy</a>
+    </div>
+
+    <p style='color:#94a3b8; font-size:0.9rem; margin-top:1.5rem;'>
+        © 2026 CreditAI™ | Built with Streamlit | 
+        Last Updated: {datetime.now().strftime('%B %d, %Y')}
+    </p>
+</div>
+"""
+
+st.markdown(footer_html, unsafe_allow_html=True)
