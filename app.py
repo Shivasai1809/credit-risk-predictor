@@ -10,7 +10,7 @@ from datetime import datetime
 # ══════════════════════════════════════════════════════════════
  
 st.set_page_config(
-    page_title="CreditAI™ Enterprise | ML-Powered Risk Intelligence Platform",
+    page_title="RiskAI™ Pro ⭐ RECOMMENDED | ML-Powered Credit Risk Assessment",
     page_icon="🏛️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -364,7 +364,7 @@ st.markdown("""
  
 st.markdown("""
 <div class='corporate-header'>
-    <h1 class='header-title'>🏛️ CreditAI™ Enterprise Platform</h1>
+    <h1 class='header-title'>🏛️ RiskAI™ Pro</h1>
     <p class='header-subtitle'>Advanced Machine Learning Risk Intelligence System | Powered by Proprietary AI Models & Real-Time Analytics</p>
     <span class='header-badge'>⚡ PRODUCTION READY • ENTERPRISE GRADE • 99.9% UPTIME</span>
 </div>
@@ -715,7 +715,7 @@ st.markdown("""
         <a href='#' class='footer-link'>🔒 Privacy Policy</a>
     </div>
     <p style='color: #94a3b8; font-size: 0.9rem; margin-top: 1.5rem;'>
-        © 2026 CreditAI™ | Built with using Streamlit | Last Updated: """ + datetime.now().strftime('%B %d, %Y') + """
+        © 2026  RiskAI™ Pro ™ | Built with using Streamlit | Last Updated: """ + datetime.now().strftime('%B %d, %Y') + """
     </p>
 </div>
 """, unsafe_allow_html=True)
