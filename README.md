@@ -12,15 +12,15 @@ It combines:
 
 
 
-## 🎯 Problem Statement
+# 🎯 Problem Statement
 
-# Financial institutions face challenges in:
+ Financial institutions face challenges in:
 
 Identifying high-risk borrowers
 Reducing loan defaults
 Making explainable decisions
 
-# This system helps solve these by:
+ This system helps solve these by:
 
 Predicting credit risk score
 Providing AI-driven explanations
