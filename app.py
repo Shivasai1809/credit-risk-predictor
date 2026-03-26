@@ -550,7 +550,7 @@ st.markdown("---")
 st.markdown("""
 <div class='footer'>
     <p><strong>Credit Risk AI Predictor</strong> | Powered by Machine Learning & Generative AI</p>
-    <p>Built with ❤️ using Streamlit | Model Accuracy: 85.3% | Last Updated: March 2024</p>
-    <p>📧 Contact: your-email@example.com | 🔗 <a href='https://github.com/Shivasal1809/credit-risk-predictor' target='_blank'>GitHub</a></p>
+    <p>Built with using Streamlit | Model Accuracy: 85.3% | Last Updated: March 2024</p>
+    <p>📧 Contact: chipla038@gmail.com | 🔗 <a href='https://github.com/Shivasal1809/credit-risk-predictor' target='_blank'>GitHub</a></p>
 </div>
 """, unsafe_allow_html=True)
